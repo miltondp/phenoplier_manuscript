@@ -4,5 +4,20 @@ files:
     - back\-matter
   matchings:
     - files:
+        - 01.*\.md$
+      prompt: abstract
+    - files:
+        - 02.*\.md$
+      prompt: introduction
+    - files:
+        - 04.*\.md$
+      prompt: results
+    - files:
+        - 05.*\.md$
+      prompt: discussion
+    - files:
+        - 07.*\.md$
+      prompt: methods
+    - files:
         - .*\.md$
       prompt: default
